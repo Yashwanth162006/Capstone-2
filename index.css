@@ -1,0 +1,248 @@
+body{
+    overflow-x: auto ;
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4f9f5;
+    width: 100vw;
+}
+.cloud1{
+    margin-left: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cloud1 img{
+    height: 75px;
+}
+.cloud1 img:hover{
+    transform: translate(-5px,10px);
+}
+.myName{
+    text-align: center;
+    padding-top: 20px;
+}
+.myName>h1{
+    font-size: 5rem;
+    font-family: "Sacramento";
+    color: #66bfbf;
+    margin-bottom: 0;
+}
+.passion{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Merriweather";
+    color: #66bfbf;
+}
+.cloud2{
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cloud2 img{
+    height: 75px;
+}
+.cloud2 img:hover{
+    transform: translateY(10px);
+}
+.mountain{
+    display: flex;
+    justify-content: center;
+}
+.mountain img{
+    width: 600px;
+    height: 300px;
+}
+.mountain img:hover{
+    transform: translateY(-10px);
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+.Hello>i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9.5rem;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 200px;
+    color: rgb(40, 39, 39);
+    cursor: pointer;
+}
+.Hello>i:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+.Hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Hello>h1{
+    color:#66bfbf;
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Hello>p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.My-Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading>h1{
+    color:#66bfbf;
+    font-weight:400;
+    font-size: 2.5rem;
+}
+.dnd{
+    display: flex;
+    width: 45%;
+    margin-top: 50px;
+    height: auto;
+}
+.dnd>img{
+    margin-right: 4%;
+    border-radius: 150px;
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.dnd>img:hover{
+    transform: translateY(-10px);
+}
+.dnd h2{
+    color: #66bfbf;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.dnd p{
+    margin-top: 12%;
+    font-size: 1.1rem;
+    color: #40514e;
+    font-family: "Merriweather", serif;
+}
+
+.HotWingsChallenge{
+    display: flex;
+    width: 45%;
+    margin-top: auto;
+    height: auto;
+}
+.HotWingsChallenge>img{
+    margin-right: 4%;
+    margin-top: 60px;
+    border-radius: 200px;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+.HotWingsChallenge>img:hover{
+    transform: translateY(-10px)
+}
+.HotWingsChallenge h2{
+    color: #66bfbf;
+    font-size: 1.4rem;
+    margin-top: 10%;
+    text-align: center;
+}
+.HotWingsChallenge p{
+    margin-top: 15%;
+    font-size: 1.1rem;
+    font-family: "Merriweather", serif;
+    color: #40514e;
+}
+hr{
+    border: dotted #40514e 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.get-in-touch{
+    display: flex;
+    flex-direction: column;
+}
+.get-in-touch>h1{
+    text-align: center;
+    font-family: "Merriweather";
+    color: #66bfbf;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.get-in-touch>h3{
+    text-align: center;
+    font-family: "Merriweather";
+    color:#205d5d;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.get-in-touch>p{
+    padding-top: 30px;
+    font-family: "Merriweather";
+    width: 50vw;
+    line-height: 2;
+    text-align: center;
+    color:#40514e
+}
+.get-in-touch>button{
+    width: 30%;
+    height: 45px;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    position: relative;
+    left: 35%;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.get-in-touch>button:hover{
+    transform: translateY(-5px);
+    background-image:linear-gradient(to bottom, #205d5d,#0b7373) ;
+}
+.footer{
+    background-color: #66bfbf;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 200px;
+}
+.myLinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.myLinks>*{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: "Merriweather";
+    color: #11999e;
+}
+.myLinks>*:hover{
+    color: white
+}
+.copyright{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
